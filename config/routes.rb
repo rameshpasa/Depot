@@ -1,9 +1,9 @@
 Depot::Application.routes.draw do
   resources :line_items
 
+  resources :store
 
   resources :carts
-
 
   get "store/index"
 
